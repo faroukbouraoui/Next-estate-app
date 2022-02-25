@@ -1,0 +1,99 @@
+// import styles from "./search.module.css";
+// import React, { useState } from "react";
+
+// const Search: React.FC = () => {
+//   const [Tag, setTag] = useState("");
+
+//   const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+//     const enteredValue = event.target.value;
+//     console.log("seleted :", enteredValue);
+
+//     setTag(enteredValue);
+//   };
+
+//   return (
+//     <div className={`${"container"} ${styles.search_opportunities}`}>
+//       <div className={`${"container"} ${styles.search_header_opportunities}`}>
+//         <h4 className={`${styles.search_title_opportunities}`}>
+//           Opportunities
+//         </h4>
+//       </div>
+//       <div className="row">
+//         <div className="col-sm-1">
+//           <span>Filter By</span>
+//         </div>
+//         <div className="col-sm-2">
+
+//           <select
+//             id="stage"
+//             className={`${styles.selectoptions}`}
+//             onChange={handleChange}
+//             value={Tag}
+//           >
+//             <option value="select">Lead</option>
+//             <option value="Angular">Hunt</option>
+//             <option value="Bootstrap">Proposals</option>
+//             <option value="React">Contracts</option>
+//           </select>
+          
+//         </div>
+//         <div className="col-sm-2">
+//         <select
+            
+//             className={`${styles.selectoptions}`}
+//             onChange={handleChange}
+//             value={Tag}
+//           >
+//             <option value="onemillion">Over 1 million SAR</option>
+//             <option value="underonemillion">Under 1 million SAR</option>
+
+//           </select>
+//         </div>
+//         <div className="col-sm-2">
+//         <select
+            
+//             className={`${styles.selectoptions}`}
+//             onChange={handleChange}
+//             value={Tag}
+//           >
+//             <option value="forecastone">1 MSAR</option>
+//             <option value="forecasttwo">2 MSAR</option>
+
+//           </select>
+//         </div>
+//         <div className="col-sm-2">
+//         <select
+            
+//             className={`${styles.selectoptions}`}
+//             onChange={handleChange}
+//             value={Tag}
+//           >
+//             <option value="worthone">0 SAR</option>
+//             <option value="worthtwo">50 SAR</option>
+//             <option value="worththree">100 SAR</option>
+//             <option value="worthfour">200 SAR</option>
+//           </select>
+//         </div>
+//         <div className="col-sm-2">
+
+//         </div>
+//         <div className="col-sm-1">
+//           <span>Most Recent</span>
+//         </div>
+//       </div>
+//       <div className={`row ${styles.all_tags}`}>
+//       <div className={`col-sm-2 ${styles.decoration_tag}`}>
+//       <p className={styles.delete_tags}>clear all</p>
+      
+//       </div>
+//       <div className="col-sm-10">
+//       <span className={`${styles.tagselected}`}>{Tag} x</span>
+//       </div>
+//       </div>
+     
+      
+//     </div>
+//   );
+// };
+
+// export default Search;
